@@ -1,0 +1,21 @@
+export const Colors = {
+  terre:    '#C85A1E',
+  or:       '#D4A017',
+  foret:    '#2D5A27',
+  piment:   '#9B2615',
+  creme:    '#FDF8F2',
+  sable:    '#F0E6D6',
+  blanc:    '#FFFFFF',
+  nuit:     '#1A1208',
+  encre:    '#1A1208',
+  miel:     '#B89A6A',
+  sable2:   '#7A6A55',
+  bordure:  '#E8D9C5',
+  bordure2: '#E0CDB5',
+} as const;
+
+export const DifficultyColors = {
+  facile:    { bg: '#EAF3DE', text: '#3B6D11' },
+  moyen:     { bg: '#FAEEDA', text: '#854F0B' },
+  difficile: { bg: '#FCEBEB', text: '#A32D2D' },
+} as const;
